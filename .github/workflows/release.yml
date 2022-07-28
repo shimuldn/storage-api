@@ -54,8 +54,8 @@ jobs:
           platforms: linux/arm64
           push: true
           tags: |
-            supabase/storage-api:latest
-            supabase/storage-api:v${{ needs.release.outputs.version }}
+            shimuldn/storage-api:latest
+            shimuldn/storage-api:v${{ needs.release.outputs.version }}
 
   release-image:
     needs:
